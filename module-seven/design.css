@@ -1,0 +1,69 @@
+
+body
+{
+	background-color: yellow;
+	background-size: 100%;
+	font-family: sans-serif;
+}
+
+.banner
+{
+	background-color:#6666FF;
+	height: 110px;
+	width:85%;
+	padding-top: px;
+	position: ;
+	border-radius: 5pt;
+	margin: 0% 7%;
+
+}
+
+#logo-page
+{
+	padding: 15px;
+
+}
+
+div.searchbox-and-logos
+{
+	margin-left:7%;
+}
+
+#search-textbox
+{
+	border-radius: 3pt;
+	height: 30px;
+	width: 398px;
+}
+
+#search-button
+{
+	border-radius:5pt;
+	width: 80px;
+	height: 40px;
+}
+
+.movie-result
+{
+	margin-left: 350px;
+}
+
+#movie-title
+{
+	margin-left:400px;
+}
+
+#movie-poster
+{
+	margin-left:425px;
+}
+
+.div-results
+{
+	background-color: black;
+}
+
+.h3-result
+{
+	margin-left: 350px;
+}
