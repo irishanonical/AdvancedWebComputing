@@ -1,0 +1,66 @@
+#body{
+	background-color: #8B5F65;
+	padding-top: 60px;
+	border-left: 40px solid #CAE1FF;
+	border-right: 40px solid #CAE1FF;
+}
+#search
+{
+	padding: 5px 9px;
+	height: 35px;
+	width: 200;
+	border: 1px solid #a4c3ca;
+	font: normal 13px 'trebuchet MS', arial, helvetica;
+	background: #f1f1f1;
+	margin-bottom:20px;
+	margin-left:600px;
+	
+	 -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);
+	 -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);
+	 box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);            
+}
+nav{
+	padding-top: 10px;
+	padding-left: 12%;
+}
+footer{
+	text-align: center;
+	font-size: 12pt;
+	background-color: #00BFFF;
+}
+#search_result{
+	color: #FFA500;
+	margin-right: 10px;
+}
+.foot{
+	margin-top: 10px;
+	color: #008B45;
+}
+#result_border{
+	border: 5px solid yellow;
+	border-radius: 20px;
+	font-size: 9pt;
+	margin-bottom: 20px;
+	margin-left: 40px;
+	padding: 15px;
+	width: 400px;
+	
+	
+}
+#thumbnail_box{
+	width: 70%;
+	height: 30%;
+}
+.attributes{
+	text-align: justify;
+	line-height: 200%;
+}
+#top_10,#latest,#up_coming,#in_theater{
+	margin-left:20px;
+	float:right;
+}
+#logo{
+	width:150px;
+	height:25px;
+	float:left;
+}

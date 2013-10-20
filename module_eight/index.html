@@ -1,0 +1,83 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	<script src ="bootstrap/js/bootstrap.js"></script>
+	<script src ="js/app.js"></script>
+	<script src = "js/handlebars.js"></script>
+
+
+		<title>Movie Search Engine</title>
+</head>
+
+<body id = "body"><center>
+<nav id = "header" class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+  <div id = "search1"class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" >
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+  </div>
+
+  <div class="collapse navbar-collapse">
+  		<img src = "logo.png" id="logo">
+    	<ul class="nav navbar-nav">
+      			<input id="top_10" class="btn btn-default" type="submit" value="Top Ten">
+		</ul>
+			<ul class="nav navbar-nav">
+			<input id="latest" class="btn btn-default" type="submit" value="Latest">
+		</ul>
+		<ul class="nav navbar-nav">
+			   <input id="up_coming" class="btn btn-default" type="submit" value="Up Coming">
+		</ul>
+		<ul class="nav navbar-nav">
+				<input id="in_theater" class="btn btn-default" type="submit" value="In Theater">
+		</ul>
+    
+  </div>
+</nav>
+</center>
+	<input id="search" type="text" placeholder="Seach Movies Here">
+	<input id="submit" class="btn btn-success" type="submit" value="Search">
+
+	<div id = "search_result" class ="row" >
+	</div>
+
+	<script id = 'movie' type = "text/x-handlebars-template">
+	
+	<div id ="result_border" class = "col-md-3">
+
+		<h3>{{title}}:({{year}})</h3>
+		</br>
+	<div>
+		<img src = "{{posters.thumbnail}}" class="img-rounded" id="thumbnail_box">
+	</div>
+	<div class="attributes">
+		</br>	RATED: {{mpaa_rating}}
+	</div>
+	<div class="attributes">
+		</br> 	RELEASE DATE: {{release_dates.theater}}
+	</div>
+	<div class="attributes">
+		</br> 	CRITICS RATING: {{ratings.critics_rating}}
+	</div>
+	<div class="attributes">
+		</br> 	AUDIENCE RATNG: {{ratings.audience_rating}}
+	</div>
+		</br> 	
+	</div>
+	</div>
+	</script>
+	
+</body>
+<footer class="navbar navbar-fixed-bottom">
+	<p class="foot">Copyright &copy; 2013 Agustin & Anonical - All Rights Reserved</p>
+</footer>
+
+</html>
